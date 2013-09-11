@@ -1,0 +1,136 @@
+table {
+  /*margin-top: 15px;
+  border-top: 1px solid #e2dbdb;*/
+  background: #fff;
+}
+
+thead {
+  border-bottom: 3px solid #e2dbdb;
+}
+
+table tr td a {
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+table th:first-child {
+  text-align: left;
+}
+
+table td:first-child {
+  font-weight: 600;
+  text-align: left;
+}
+
+.table-striped tbody tr:nth-child(odd) td, 
+.table-striped tbody tr:nth-child(odd) th
+{
+  background: #f3f3f3;
+}
+.table thead tr th, 
+.table tbody tr th, 
+.table tfoot tr th, 
+.table thead tr td, 
+.table tbody tr td, 
+.table tfoot tr td
+{
+  padding:20px;
+  border-top: 0px solid #e6e6e6;
+}
+
+@media screen and (max-width: 767px)  {
+  table tr.active td {
+  color: #414146;
+  background: #F9F9F9 !important;
+  }
+}
+
+table tr:nth-child(even):hover td,
+table tr:nth-child(odd):hover td 
+{
+  background: #FEF4D8 !important;
+  cursor: pointer;
+}
+table tr.active td, table tr.active:hover td {
+
+  background: #FFF9EC !important;
+}
+
+thead tr th {
+  color: #762d2b;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+th.value {
+  text-align: right;
+}
+
+td.value {
+  font-weight: 600;
+  text-align: right;
+}
+
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr> th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+table td span {
+  color:#414141;
+  font-weight:normal;
+}
+
+
+#invoices  {
+  background: #F6F6F6;
+  padding: 0px;
+}
+
+#invoices table {
+  margin-top: 0;
+  border-top: 0px;
+
+}
+
+#todays-orders {
+  height: 500px;
+  padding: 0;
+  overflow: hidden;
+  overflow-y:scroll;
+}
+
+#todays-invoices {
+  height: 500px !important;
+  overflow: hidden;
+  padding: 0;
+  overflow-y:scroll;
+}
+
+
+#delivery-details {
+
+}
+#invoices table td, #invoices table tr  {
+  border-top: 0px;
+}
+
+#wholesale-offers table td:first-child {
+  text-align: right;
+}
+
+#wholesale-offers .row {
+  border-bottom: 1px solid #e2dbdb;
+  margin: 15px 0;
+}
+
+#wholesale-offers img {
+  margin-top: .4em;
+}
+
+#wholesale-offers {
+  margin-top: 15px;
+  border-top: 3px solid #e2dbdb;
+}

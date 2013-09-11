@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>Just Eat Partner Centre</title>
+
+    <!-- Mobile Icons -->
+    <link rel="apple-touch-icon" href="img/ios/touch-icon-iphone-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/ios/touch-icon-iphone-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/ios/touch-icon-ipad-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/ios/touch-icon-iphone-retina-precomposed.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/ios/touch-icon-ipad-retina-precomposed.png" />
+
+    <!-- Modernizr -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- Chart.js -->
+    <script src="js/Chart.min.js"></script>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/tables.css">
+
+    <!--[if (gt IE 8) | (IEMobile)]><!-->
+    <link rel="stylesheet" href="css/jepartnercenter.css">
+    <!--<![endif]-->
+    <!--[if (lt IE 9) & (!IEMobile)]>
+      <link rel="stylesheet" href="css/ie_jepartnercenter.css">
+    <![endif]-->
+</head>
+<body>
+
+<div id="outer-wrap">
+  <div id="inner-wrap">
+
+    <div class="container" role="main">
+
+      <div class="row" id="primary-nav">
+        <div class="col-sm-2 col-lg-2" style="height: 100%; padding-right:0 !important;">
+          <header role="banner" style="padding:1em 0;">
+            <div class="row">
+              <div class="col-12">
+                <h1><a class="nav-btn" id="nav-open-btn" href="#nav"><span class="glyphicon glyphicon-align-justify"></span></a><span class="je-logo"></span><span class="copy">Partner Center</span></h1>
+
+                <!--<div class="tertiary-nav">
+                  <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <span class="name">Olly Dobson</span> <b class="caret"></b></a>
+                      <ul class="dropdown-menu pull-right">
+                        <li><a href="help.html">Help</a></li>
+                        <li><a href="#contact">Logout</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>-->
+              </div>
+            </div>
+          </header>
+          <nav id="nav" role="navigation">
+            <h2 class="logo"><span class="je-logo"></span>Partner Center</h2>
+            <ul>
+                <li><a href="index.html"><span class="copy">Dashboard</span></a></li>
+                <li><a href="myresturant.html"><span class="copy">My Restaurant</span></a></li>
+                <li class="is-active"><a href="orders.html"><span class="copy">Orders</span></a></li>
+                <li><a href="invoices.html"><span class="copy">Invoices</span></a></li>
+                <li><a href="shop_wholesale.html"><span class="copy">Shop</span></a></li>
+            </ul>
+            <a class="close-btn" id="nav-close-btn" href="#top">Return to Content</a>
+          </nav>
+        </div>
+       <div class="col-sm-3 col-lg-3" id="secondary-nav">
+
+          <div id="mouse" role="banner">
+            <div class="row">
+              <div class="col-9">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search orders">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="btn-group dropdown pull-right">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Today <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Yesterday</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-12 col-lg-12" id="invoices">
+              <table class="table table-striped offers">
+                <!--<thead>
+                  <tr>
+                    <th>Customer</th>
+                    <th class="value">Time</th>
+                  </tr>
+                </thead>-->
+                <tbody>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                  <tr class="switcher">
+                    <td>Ted Barnes<br /><span>#2039900</span></td>
+                    <td class="value">£12.98<br /><span>11:00 AM</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!--order-->
+        <div class="col-sm-7 col-lg-7" id="main-pane">
+          <div id="mouse2" role="banner">
+            <div class="row">
+              <div class="col-6">
+                <h3>Ted Barnes</h3> 
+              </div>
+              <div class="col-6" style="text-align:right;">
+               <h3>Order #2039900</h3> 
+              </div>
+            </div>
+          </div>
+
+          <!--details-->
+          <div id="delivery-details" class="col-sm-12 col-lg-12">
+
+                <div id="order-details" class="row">
+                  <div class="col-2 col-lg-2">
+                    <strong>Delivery To:</strong>
+                  </div>
+                  <div class="col-10 col-lg-10">
+                    58 Oldhill Street London AR51 5GH
+                  </div>
+                  <div class="col-2 col-lg-2">
+                    <strong>Ordered:</strong>
+                  </div>
+                  <div class="col-10 col-lg-10">
+                    18:35pm
+                  </div>
+                  <div class="col-2 col-lg-2">
+                    <strong>Delivered:</strong>
+                  </div>
+                  <div class="col-10 col-lg-10">
+                    18:35pm
+                  </div>
+                  <div class="col-2 col-lg-2">
+                    <strong>Paid By:</strong>
+                  </div>
+                  <div class="col-10 col-lg-10">
+                    Card ending XXXX2994
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="order-receipt col-12 col-lg-12">
+                    <dl>
+                      <dd>1x Spicy Olivia, 7" Deep Pan</dd>
+                        <dt>£6.99</dt>
+                      <dd>1x Combo Ribs</dd>
+                        <dt>£5.00</dt>
+                      <dd>2x Coco Cola 1L @£1.50</dd>
+                        <dt>£3.00</dt>
+                      <dd class="odCaps">Sub Total</dd>
+                        <dt>£16.99</dt>
+                      <dd>Delivery Fee</dd>
+                        <dt>£1.50</dt>
+                      <dd class="odBold odNoBorder">Total</dd>
+                        <dt class="odBold odNoBorder">£18.49</dt>
+                    </dl>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--/today's offers-->
+      </div><!--/row-->
+    </div>
+
+</div>
+<!--/#inner-wrap-->
+</div>
+<!--/#outer-wrap-->
+<!-- Jquery -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<!-- Boostrap -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<!-- Off canvas menu -->
+<script src="js/main.js"></script>
+
+<!-- Respond.js -->
+<script src="js/respond.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+      // This will fire when document is ready:
+      $(window).resize(function() {
+          // This will fire each time the window is resized:
+          if($(window).width() <= 767) {
+              // if larger or equal
+              $( ".switcher" ).click(function() {
+                window.location = 'order-iframe.html';
+              });
+          } else {
+       
+          }
+      }).resize(); // This will simulate a resize to trigger the initial run.
+  });
+</script>
+
+</body>
+</html>
